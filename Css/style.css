@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body{
+         font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+#carrousel-bg{
+  
+  
+}
+.contador{
+    width: 40vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 55px auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 20px;
+     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(25px); 
+    border-style: groove;
+    
+    
+ 
+}
+
+#audio{
+/** background-image: url(../img/OIP\ \(1\).jpeg);
+   background-position: top center;
+   background-size: cover;
+   background-repeat: no-repeat;*/
+   animation: fadeInLeft;
+  animation-duration: 1.5s;
+  }
+
+#audio audio{
+   margin-left: 25px;  
+   margin-top: 5%;
+   
+   
+}
+#audio h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 5%;
+    line-height: 25px;
+    
+
+}
+.contador span{
+    color: aliceblue;
+    
+    
+}
+.big-numbers{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: aliceblue;
+    
+        
+    
+    
+    
+}
+#Fecha{
+  /**animation:fadeInLeftBig;
+  animation-duration: 2s;*//
+   
+  
+
+}
+
+#Fecha h3{
+text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  #Fecha p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  
+
+
+
+#Fecha{
+ background-image: url() ;
+ background-position: top center;
+ background-size: cover;
+ background-repeat: no-repeat;  
+ backdrop-filter: blur(25px);
+ height: 50vh;
+ width: 100%;
+ 
+}
+
+.section{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
+  
+}
+.blur{
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(25px); 
+    height: 100vh;
+      width: 50%;
+  }
+
+  #separador {
+    background-image: url(../img/9.1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 20vh;
+    width: 100%;
+    padding-top: 10%;
+    
+  }
+
+  #Padres h4{
+    font-size: 20px;
+    font-weight: 400;
+   
+    padding-top: 5%;
+  }
+
+  #Padrinos h4{
+    font-size: 20px;
+    font-weight: 400;
+   
+    padding-top: 5%;
+  }
+  #Padres{
+    padding-top: 9%;
+  }
+
+  #Padres h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  #Padres h4{
+    text-align: center;
+  }
+
+  #Padrinos h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  #Padrinos h4{
+    text-align: center;
+  }
+
+  #itinerario{
+    text-align: center;
+    font-weight: 400;
+
+  }
+  
+  #itinerario h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    
+  }
+
+
+  #itinerario i{
+    color: coral;
+    font-size: 50px;
+    padding-bottom: 5%;
+    border-radius: 100%;
+    box-shadow: 10px;
+    padding-top: 5%;
+  }
+
+  .recepcion{
+    padding-top: 15%;
+  }
+
+  #asistencia{
+    text-align: center;
+
+  }
+
+  #asistencia h5{
+    font-weight: lighter;
+    font-size: 15px;
+
+
+  }
+
+  #asistencia h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  .boton-primario{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: coral;
+    color: chocolate;
+
+  }
+  .modal-dialog{
+    border-radius: 55px;
+  }
+
+  #nenes{
+    text-align: center;
+    margin-left: 10%  ;
+  }
+
+  .card-header i{
+    color: coral;
+    font-size: 35px;
+  }
+
+  .card-title{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .card-text{
+    font-weight: lighter;
+    
+  }
+
+  #nenes{
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
